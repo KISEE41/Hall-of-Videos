@@ -26,7 +26,10 @@ SECRET_KEY = 'django-insecure-q$km*v(1n6za@ld8&#k-t!)$&g&_fmw3uclfaj3a0$7eb+-nw8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'aqueous-reaches-29240.herokuapp.com',
+    '127.0.0',
+]
 
 LOGIN_URL = 'login'
 LOGIN_REDIRECT_URL = 'home'
